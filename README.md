@@ -1,4 +1,4 @@
-Golang on VS Code
+Go1.18beta1 on VS Code
 ====
 
 ## Requirement
