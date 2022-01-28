@@ -38,7 +38,7 @@ RUN set -x \
         build-essential \
         curl \
     && apt-get clean && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/* \
-    && curl -fsSL "https://golang.org/dl/go1.17.1.linux-amd64.tar.gz" | tar -xz -C /usr/local
+    && curl -fsSL "https://go.dev/dl/go1.18beta1.linux-amd64.tar.gz" | tar -xz -C /usr/local
 ENV GOROOT=/usr/local/go \
     GOPATH=/home/vscode/go \
     PATH=/home/vscode/go/bin:/usr/local/go/bin:${PATH}
